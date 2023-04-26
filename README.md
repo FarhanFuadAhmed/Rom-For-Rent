@@ -271,7 +271,7 @@ easy to use on both desktop and mobile devices
 ○ The platform should display user feedback and ratings for each property, allowing users to
 make more informed decisions based on the experiences of previous renters.
 
-### Hosted link: [roomforrent](https://roomforrent-1.netlify.app)
+### Hosted link: [roomforrent](https://roomforrent.netlify.app)
 
 ## Installation
 
