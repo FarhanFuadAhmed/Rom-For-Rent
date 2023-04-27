@@ -5,20 +5,8 @@ const {default: mongoose} = require("mongoose");
 require('dotenv').config();
 const cloudinary = require('cloudinary').v2;
 
-// connect with database
-connectWithDB();
-// mongoose.connect(process.env.DB_URL, {
-//     useNewUrlParser: true,
-//     useUnifiedTopology: true
-// })
-//     .then(() => {
-//         console.log('Connected to MongoDB Atlas');
-//     })
-//     .catch((error) => {
-//         console.error('Error connecting to MongoDB Atlas: ', error);
-//     });
 
-// cloudinary configuration
+connectWithDB();
 cloudinary.config({
   cloud_name: process.env.CLOUDINARY_NAME,
   api_key: process.env.CLOUDINARY_API_KEY,
@@ -31,8 +19,7 @@ const app = express();
 app.use(express.json());
 
 const whiteList = [
-  'https://roomforrent-clone0.netlify.app',
-  'https://roomforrent-1.netlify.app',
+  'https://roomforrent.netlify.app',
   'http://localhost:5173',
 ];
 
