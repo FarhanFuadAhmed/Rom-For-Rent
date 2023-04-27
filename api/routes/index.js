@@ -14,7 +14,7 @@ cloudinary.config({
 
 router.get('/', (req, res) => {
   res.status(200).json({
-    greeting: 'Hello from roomforrent-clone api',
+    greeting: 'Hello from roomforrent api',
   });
 });
 
